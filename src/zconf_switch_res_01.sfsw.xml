@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFSW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <HEADER>
+    <SWITCH_ID>ZCONF_SWITCH_RES_01</SWITCH_ID>
+    <VERSION>A</VERSION>
+    <X_COMBI>X</X_COMBI>
+   </HEADER>
+   <NAME32>Konflikt zwischen Imp 1 und imp2</NAME32>
+   <CONFLICTS>
+    <SFW_CONFL_OUTTAB_LINE>
+     <CONFL_SWITCH>ZCONF_SWITCH_RES_01</CONFL_SWITCH>
+     <VERSION>A</VERSION>
+     <SWITCH_ID>ZSWITCHA_01</SWITCH_ID>
+     <NAME32>Schalter 1</NAME32>
+    </SFW_CONFL_OUTTAB_LINE>
+    <SFW_CONFL_OUTTAB_LINE>
+     <CONFL_SWITCH>ZCONF_SWITCH_RES_01</CONFL_SWITCH>
+     <VERSION>A</VERSION>
+     <SWITCH_ID>ZSWITCHB_01</SWITCH_ID>
+     <NAME32>Schalter 2</NAME32>
+    </SFW_CONFL_OUTTAB_LINE>
+   </CONFLICTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SCVI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SCVI>
+    <SHDSVCI>
+     <SCVARIANT>ZWKO_TV_1000</SCVARIANT>
+     <PROGNAME>SAPLSD_ENTRY</PROGNAME>
+     <DYNPRO>1000</DYNPRO>
+     <VERSION>3</VERSION>
+    </SHDSVCI>
+    <SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>D</LANGU>
+      <SCVARIANT>ZWKO_TV_1000</SCVARIANT>
+      <SCVTEXT>Ausblenden  Anlegen und Ändern</SCVTEXT>
+     </SHDSVTXCI>
+    </SHDSVTXCI>
+    <SHDSVFVCI>
+     <SHDSVFVCI>
+      <SCVARIANT>ZWKO_TV_1000</SCVARIANT>
+      <FIELDNAME>PUSHADD</FIELDNAME>
+      <ITYPE>0</ITYPE>
+     </SHDSVFVCI>
+     <SHDSVFVCI>
+      <SCVARIANT>ZWKO_TV_1000</SCVARIANT>
+      <FIELDNAME>PUSHEDIT</FIELDNAME>
+      <ITYPE>0</ITYPE>
+     </SHDSVFVCI>
+     <SHDSVFVCI>
+      <SCVARIANT>ZWKO_TV_1000</SCVARIANT>
+      <FIELDNAME>RSRD1-TBMA_VAL</FIELDNAME>
+      <FIELDVALUE>SFLIGHT01</FIELDVALUE>
+      <ACTIVE>X</ACTIVE>
+      <INPUT_OFF>X</INPUT_OFF>
+      <ITYPE>C</ITYPE>
+     </SHDSVFVCI>
+    </SHDSVFVCI>
+   </SCVI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

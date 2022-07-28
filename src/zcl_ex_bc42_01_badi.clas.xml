@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_EX_BC42_01_BADI</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BAdI-Klasse ZCL_EX_BC42_01_BADI</DESCRIPT>
+    <CATEGORY>01</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EX_BC42_01_BADI</CLSNAME>
+     <CMPNAME>INSTANCE_BADI_TABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Instanz-Attribut INSTANCE_BADI_TABLE der Klasse ZCL_EX_BC42_</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EX_BC42_01_BADI</CLSNAME>
+     <CMPNAME>INSTANCE_FLT_CACHE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Instanz-Attribut INSTANCE_FLT_CACHE der Klasse ZCL_EX_BC42_0</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EX_BC42_01_BADI</CLSNAME>
+     <CMPNAME>VERSION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Versions-Kennzeichen des Generators</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

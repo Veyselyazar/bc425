@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Erweiterung über BTE</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLZBC425_BTE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_FB_1340</FUNCNAME>
+     <SHORT_TEXT>Schnittstellenbeschreibung zum Event 00001340</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_KNA1</PARAMETER>
+       <DBFIELD>KNA1</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KNB1</PARAMETER>
+       <DBFIELD>KNB1</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KNA1_OLD</PARAMETER>
+       <DBFIELD>KNA1</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KNB1_OLD</PARAMETER>
+       <DBFIELD>KNB1</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KNVV</PARAMETER>
+       <DBFIELD>KNVV</DBFIELD>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_XKNBK</PARAMETER>
+       <DBSTRUCT>FKNBK</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XKNB5</PARAMETER>
+       <DBSTRUCT>FKNB5</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YKNBK</PARAMETER>
+       <DBSTRUCT>FKNBK</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YKNB5</PARAMETER>
+       <DBSTRUCT>FKNB5</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XKNZA</PARAMETER>
+       <DBSTRUCT>FKNZA</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YKNZA</PARAMETER>
+       <DBSTRUCT>FKNZA</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XKNAS</PARAMETER>
+       <DBSTRUCT>FKNAS</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YKNAS</PARAMETER>
+       <DBSTRUCT>FKNAS</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XKNEX</PARAMETER>
+       <DBSTRUCT>FKNEX</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YKNEX</PARAMETER>
+       <DBSTRUCT>FKNEX</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XKNVA</PARAMETER>
+       <DBSTRUCT>FKNVA</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YKNVA</PARAMETER>
+       <DBSTRUCT>FKNVA</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XKNVD</PARAMETER>
+       <DBSTRUCT>FKNVD</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YKNVD</PARAMETER>
+       <DBSTRUCT>FKNVD</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XKNVI</PARAMETER>
+       <DBSTRUCT>FKNVI</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YKNVI</PARAMETER>
+       <DBSTRUCT>FKNVI</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XKNVK</PARAMETER>
+       <DBSTRUCT>FKNVK</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YKNVK</PARAMETER>
+       <DBSTRUCT>FKNVK</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XKNVL</PARAMETER>
+       <DBSTRUCT>FKNVL</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YKNVL</PARAMETER>
+       <DBSTRUCT>FKNVL</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XKNVP</PARAMETER>
+       <DBSTRUCT>FKNVP</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YKNVP</PARAMETER>
+       <DBSTRUCT>FKNVP</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XKNAT</PARAMETER>
+       <DBSTRUCT>FKNAT</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XKNBW</PARAMETER>
+       <DBSTRUCT>FKNBW</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YKNAT</PARAMETER>
+       <DBSTRUCT>FKNAT</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YKNBW</PARAMETER>
+       <DBSTRUCT>FKNBW</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_KNA1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Debitoren A-Segment</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KNB1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Debitoren B-Segment</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KNA1_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Debitoren A-Segment alter Stand</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KNB1_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Debitoren B-Segment alter Stand</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KNVV</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Vertriebsdaten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XKNBK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bankverbindungen (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XKNB5</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mahndaten (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YKNBK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bankverbindungen (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YKNB5</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mahndaten (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XKNZA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Abweichende Regulierer (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YKNZA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Abweichende Regulierer (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XKNAS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>EG-Steuernummern (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YKNAS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>EG-Steuernummern (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XKNEX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gesetzliche Kontrolle (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YKNEX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gesetzliche Kontrolle (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XKNVA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Abladestellen (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YKNVA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Abladestellen (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XKNVD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dokumentenanforderung Vertrieb (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YKNVD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dokumentenanforderung Vertrieb (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XKNVI</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Steuerindikatoren (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YKNVI</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Steuerindikatoren (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XKNVK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ansprechpartner (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YKNVK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ansprechpartner (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XKNVL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Lizenzen (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YKNVL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Lizenzen (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XKNVP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Partnerrollen (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YKNVP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Partnerrollen (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XKNAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Steuerkategorien (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XKNBW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Quellensteuer (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YKNAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Steuerkategorien (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YKNBW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Quellensteuer (alt)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

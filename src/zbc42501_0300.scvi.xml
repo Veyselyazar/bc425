@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SCVI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SCVI>
+    <SHDSVCI>
+     <SCVARIANT>ZBC42501_0300</SCVARIANT>
+     <PROGNAME>SAPBC425_TAVAR</PROGNAME>
+     <DYNPRO>0300</DYNPRO>
+     <VERSION>7</VERSION>
+    </SHDSVCI>
+    <SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>D</LANGU>
+      <SCVARIANT>ZBC42501_0300</SCVARIANT>
+     </SHDSVTXCI>
+    </SHDSVTXCI>
+    <SHDSVFVCI>
+     <SHDSVFVCI>
+      <SCVARIANT>ZBC42501_0300</SCVARIANT>
+      <FIELDNAME>SDYN_CONN-CURRENCY</FIELDNAME>
+      <ITYPE>C</ITYPE>
+     </SHDSVFVCI>
+     <SHDSVFVCI>
+      <SCVARIANT>ZBC42501_0300</SCVARIANT>
+      <FIELDNAME>SDYN_CONN-PRICE</FIELDNAME>
+      <ITYPE>P</ITYPE>
+     </SHDSVFVCI>
+    </SHDSVFVCI>
+   </SCVI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

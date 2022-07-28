@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZBC40001</TCODE>
+    <CINFO>Ag==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZBC40001</TCODE>
+    <S_WIN32>X</S_WIN32>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>D</SPRSL>
+    <TCODE>ZBC40001</TCODE>
+    <TTEXT>Übung 1 BC425</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>ZBC40001</TCODE>
+    <PARAM>@@BC425_TAVAR ZBC42501</PARAM>
+   </TSTCP>
+  </asx:values>
+ </asx:abap>
+</abapGit>

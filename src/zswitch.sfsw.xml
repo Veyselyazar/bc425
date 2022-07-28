@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFSW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <HEADER>
+    <SWITCH_ID>ZSWITCH</SWITCH_ID>
+    <VERSION>A</VERSION>
+   </HEADER>
+   <NAME32>Schaltbare Objekte zbc425_switch</NAME32>
+   <PARENT_BF>
+    <SFW_BF_SW_OUTTAB_LINE>
+     <SWITCH_ID>ZSWITCH</SWITCH_ID>
+     <VERSION>A</VERSION>
+     <BFUNCTION>ZBF_01</BFUNCTION>
+     <OWNER>W</OWNER>
+     <TEXT_COMMENT>Zuordnung ist in Business Function definiert</TEXT_COMMENT>
+     <CELLTAB>
+      <LVC_S_STYL>
+       <STYLE>EBA=</STYLE>
+      </LVC_S_STYL>
+     </CELLTAB>
+    </SFW_BF_SW_OUTTAB_LINE>
+   </PARENT_BF>
+  </asx:values>
+ </asx:abap>
+</abapGit>

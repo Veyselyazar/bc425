@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFBF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <HEADER>
+    <BFUNCTION>ZBF_01_B</BFUNCTION>
+    <VERSION>A</VERSION>
+    <TYPE>G</TYPE>
+    <REVERSIBLE>X</REVERSIBLE>
+    <COMPONENT>HOME</COMPONENT>
+    <S4H_OP_STATE>1</S4H_OP_STATE>
+    <S4H_PC_STATE>2</S4H_PC_STATE>
+   </HEADER>
+   <NAME32>Businessfunction B</NAME32>
+   <NAME80>Paket zbc425_conf2_01 zugeordnet</NAME80>
+   <ASSIGNED_SWITCHES>
+    <SFW_SWBF_OUTTAB_LINE>
+     <BFUNCTION>ZBF_01_B</BFUNCTION>
+     <SWITCH_ID>ZSWITCHB_01</SWITCH_ID>
+     <SWITCHTYPE>A</SWITCHTYPE>
+     <NAME32>Schalter 2</NAME32>
+    </SFW_SWBF_OUTTAB_LINE>
+   </ASSIGNED_SWITCHES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

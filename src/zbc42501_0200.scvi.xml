@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SCVI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SCVI>
+    <SHDSVCI>
+     <SCVARIANT>ZBC42501_0200</SCVARIANT>
+     <PROGNAME>SAPBC425_TAVAR</PROGNAME>
+     <DYNPRO>0200</DYNPRO>
+     <VERSION>7</VERSION>
+    </SHDSVCI>
+    <SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>D</LANGU>
+      <SCVARIANT>ZBC42501_0200</SCVARIANT>
+     </SHDSVTXCI>
+    </SHDSVTXCI>
+    <SHDSVFVCI>
+     <SHDSVFVCI>
+      <SCVARIANT>ZBC42501_0200</SCVARIANT>
+      <FIELDNAME>MY_TC</FIELDNAME>
+      <ACTIVE>X</ACTIVE>
+      <FTYPE>E</FTYPE>
+     </SHDSVFVCI>
+     <SHDSVFVCI>
+      <SCVARIANT>ZBC42501_0200</SCVARIANT>
+      <FIELDNAME>SDYN_CONN-AIRPFROM</FIELDNAME>
+      <STEPL>1</STEPL>
+      <ITYPE>C</ITYPE>
+      <FTYPE>T</FTYPE>
+      <CONTAINER>MY_TC</CONTAINER>
+     </SHDSVFVCI>
+    </SHDSVFVCI>
+   </SCVI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

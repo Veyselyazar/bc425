@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SXCI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SXCI>
+    <IMPLEMENTATION_DATA>
+     <IMP_NAME>ZBC425SIN01</IMP_NAME>
+     <TEXT>Erweiterung Sflight-Anzeige</TEXT>
+     <IMP_CLASS>ZCL_IM_BC425SIN01</IMP_CLASS>
+     <EXIT_NAME>BC425_01FLIGHT2</EXIT_NAME>
+     <INTER_NAME>IF_EX_BC425_01FLIGHT2</INTER_NAME>
+     <ACTIVE>X</ACTIVE>
+    </IMPLEMENTATION_DATA>
+    <SCREENS>
+     <item>
+      <EXIT_NAME>BC425_01FLIGHT2</EXIT_NAME>
+      <SCR_A_PROG>SAPBC425_FLIGHT_CHNG01</SCR_A_PROG>
+      <SCR_A_NUM>0200</SCR_A_NUM>
+      <SCR_A_SSCR>SUB</SCR_A_SSCR>
+      <SCR_P_PROG>SAPLZBC425IM01</SCR_P_PROG>
+      <SCR_P_NUM>9000</SCR_P_NUM>
+      <IMP_NAME>ZBC425SIN01</IMP_NAME>
+      <SPRSL>D</SPRSL>
+      <SCR_TEXT>Erweiterung der Erfassungsmaske</SCR_TEXT>
+     </item>
+    </SCREENS>
+   </SXCI>
+  </asx:values>
+ </asx:abap>
+</abapGit>
